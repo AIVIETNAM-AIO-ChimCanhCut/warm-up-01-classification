@@ -1,8 +1,8 @@
 # AIO-2026-WARMUP
 
-A modular machine learning project designed for high-performance experimentation and reproducible research. This project leverages `uv` for dependency management, ensuring fast, deterministic builds and a clean development environment.
+A warm-up machine learning project for AIO2026, focusing on . This project leverages `uv` for dependency management.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 You will need [uv](https://github.com/astral-sh/uv) installed to manage the environment and dependencies.
@@ -21,7 +21,7 @@ You will need [uv](https://github.com/astral-sh/uv) installed to manage the envi
     uv sync
     ```
 
-## 📂 Project Structure
+## Project Structure
 
 Following the modern **src-layout**, the project is organized as follows[cite: 1]:
 ```text
@@ -36,7 +36,7 @@ Following the modern **src-layout**, the project is organized as follows[cite: 1
 └── .python-version     # Specified Python version for the project[cite: 1]
 ```
 
-## 🛠 Usage
+## Usage
 
 ### Running the Project
 Execute the main script within the managed environment:
