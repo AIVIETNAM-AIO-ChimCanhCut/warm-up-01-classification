@@ -16,24 +16,24 @@ You will need [uv](https://github.com/astral-sh/uv) installed to manage the envi
     ```
 
 2.  **Sync the environment:**
-    This command creates a virtual environment (`.venv`), installs the required dependencies from `uv.lock`, and installs the project in editable mode[cite: 1].
+    This command creates a virtual environment (`.venv`), installs the required dependencies from `uv.lock`, and installs the project in editable mode.
     ```bash
     uv sync
     ```
 
 ## Project Structure
 
-Following the modern **src-layout**, the project is organized as follows[cite: 1]:
+Following the modern **src-layout**, the project is organized as follows:
 ```text
-├── data/               # Local data storage (ignored by git)[cite: 1]
-├── models/             # Saved model weights, checkpoints, and artifacts[cite: 1]
-├── notebooks/          # Jupyter notebooks for EDA and prototyping[cite: 1]
-├── src/                # Core logic and package source code[cite: 1]
-├── tests/              # Unit and integration tests[cite: 1]
-├── main.py             # Primary entry point for execution[cite: 1]
-├── pyproject.toml      # Project configuration and dependencies[cite: 1]
-├── uv.lock             # Deterministic dependency lockfile[cite: 1]
-└── .python-version     # Specified Python version for the project[cite: 1]
+├── data/               # Local data storage (ignored by git)
+├── models/             # Saved model weights, checkpoints, and artifacts
+├── notebooks/          # Jupyter notebooks for EDA and prototyping
+├── src/                # Core logic and package source code
+├── tests/              # Unit and integration tests
+├── main.py             # Primary entry point for execution
+├── pyproject.toml      # Project configuration and dependencies
+├── uv.lock             # Deterministic dependency lockfile
+└── .python-version     # Specified Python version for the project
 ```
 
 ## Usage
@@ -47,4 +47,4 @@ uv run main.py
 ### Development Workflow
 *   **Add a dependency**: `uv add <package>`
 *   **Remove a dependency**: `uv remove <package>`
-*   **Interactive development**: Select the `.venv` directory as your interpreter/kernel in VS Code or Jupyter[cite: 1].
+*   **Interactive development**: Select the `.venv` directory as your interpreter/kernel in VS Code or Jupyter.
